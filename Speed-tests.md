@@ -1,3 +1,5 @@
+# Characters to be used to create a password and how to get them (speed tests)
+
 **Characters to be used to create a password:**
  - 0123456789
  - ABCDEFGHIJKLMNOPQRSTUVWXYZ
