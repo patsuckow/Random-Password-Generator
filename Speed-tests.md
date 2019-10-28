@@ -1,4 +1,4 @@
-# Characters to be used to create a password and how to get them (speed tests)
+# Characters to be used to create a password and how to get them (speed tests 🚀)
 
 **Characters to be used to create a password:**
  - 0123456789
@@ -71,4 +71,4 @@ Speed test when list generation:                    Speed test when using a read
 0.00697691401001066                                 0.007094986009178683
 ```
 **Conclusion:**
-Code runs faster when we generate lists "on the fly". 
+Code runs faster when we generate lists "on the fly" 😎. 
