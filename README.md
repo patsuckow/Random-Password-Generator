@@ -31,4 +31,4 @@ $ python3 pass_gen.py --len=18
     
 All you need to do is just determine how long the password is to generate. By default, a string of 21 characters will be displayed.
 
-Symbols to be used to create a password and how to get them (speed tests): ![see](https://github.com/patsuckow/Random-Password-Generator/blob/master/Speed-tests.md)
+Symbols to be used to create a password and how to get them (speed tests 🚀): ![see](https://github.com/patsuckow/Random-Password-Generator/blob/master/Speed-tests.md)
