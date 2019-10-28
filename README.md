@@ -14,7 +14,6 @@ Installation
 $ wget -O pass_gen.py https://raw.githubusercontent.com/patsuckow/Random-Password-Generator/master/rpg.py
 ```
 
-
 Usage
 -----
 ```
