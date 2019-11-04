@@ -1,4 +1,4 @@
-# @uthor Пацуков А.А. (https://vk.com/patsuckow)
+# @uthor Пацуков А.А. (https://vk.com/patsuckow) 🇷🇺
 import random
 import argparse
 
