@@ -39,8 +39,20 @@ instead of using:
         ) for _ in range(arg())
 ```
 However, if you run speed tests, you can see that no matter how strange it may be, generating lists is still faster than using a ready-made list.
+```python3
+import timeit
+setup = '''
 
-**Speed tests:**
+# Here we insert the code whose speed you need to test
+
+'''
+
+# Run the code 25 times and sort the results in ascending run time
+print(sorted(timeit.Timer(setup=setup).repeat(25)))
+```
+
+
+**Resultats speed tests:**
 ```
 Speed test when list generation:                    Speed test when using a ready-made list:
 --------------------------------                    ----------------------------------------
