@@ -1,4 +1,6 @@
-# @uthor Пацуков А.А. (https://vk.com/patsuckow) 🇷🇺
+"""
+    @uthor Пацуков А.А. (https://vk.com/patsuckow) 🇷🇺
+"""
 import random
 import argparse
 
@@ -12,7 +14,7 @@ def arg() -> int:
         default=21,
         help='provide an integer (default: 21)'
     )
-    
+
     return parser.parse_args().len
 
 
