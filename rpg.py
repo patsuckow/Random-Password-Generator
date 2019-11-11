@@ -1,6 +1,6 @@
 """
-    @uthor Пацуков А.А. (https://vk.com/patsuckow) 🇷🇺
-    https://github.com/patsuckow/Random-Password-Generator
+Author Пацуков А.А. (https://vk.com/patsuckow) 🇷🇺
+https://github.com/patsuckow/Random-Password-Generator
 """
 import random
 import argparse
