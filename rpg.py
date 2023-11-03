@@ -6,7 +6,6 @@ import random
 import argparse
 
 
-
 def arg():
     """ Get the value of the argument --len passed to the script """
     parser = argparse.ArgumentParser(description='Генератор случайных строк')
