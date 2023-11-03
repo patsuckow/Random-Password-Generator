@@ -15,6 +15,12 @@ def arg():
         default=21,
         help='Длина генерируемой строки (default: 21)'
     )
+    parser.add_argument(
+        '--str',
+        type=int,
+        default=3,
+        help='Кол-во генерируемых строк (default: 3)'
+    )
 
     return parser.parse_args()
 
@@ -23,7 +29,7 @@ def random_password_generator(length=21) -> str:
     """ :return: random string """
     # random.choice() - extracts the required number of random characters from
     # the list.
-    # Можно использовать конечно и модуль string и выборку сделать одной строкой
+    # Можно использовать конечно и модуль string и выборку сделать однойстрокой
     # типа random.choice(string.ascii_letters + string.digits) for _ in range(length)
     # но мне так больше нравится и можно ручками добавить выборку и других символов
     # если это понадобится
@@ -40,4 +46,5 @@ if __name__ == '__main__':
     if arg().len < 1:
         print("Длина строки должна быть больше 0")
     else:
-        print(random_password_generator(arg().len))
+        for i in range(arg().str):
+            print(random_password_generator(arg().len))
