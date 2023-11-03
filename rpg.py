@@ -24,7 +24,10 @@ def random_password_generator(length=21) -> str:
     """ :return: random string """
     # random.choice() - extracts the required number of random characters from
     # the list.
-    # Можно использовать и 
+    # Можно использовать конечно и модуль string и выборку сделать одной строкой
+    # типа random.choice(string.ascii_letters + string.digits) for _ in range(length)
+    # но мне так больше нравится и можно ручками добавить выборку и других символов
+    # если это понадобится
     return ''.join([
         random.choice(
             [str(i) for i in range(10)] +
