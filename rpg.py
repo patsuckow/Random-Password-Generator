@@ -43,8 +43,8 @@ def random_password_generator(length=21) -> str:
 
 
 if __name__ == '__main__':
-    if arg().len < 1:
-        print("Длина строки должна быть больше 0")
+    if (arg().len < 1) or (arg().str < 1):
+        print("Передаваемый параметр должен быть больше 0")
     else:
         for i in range(arg().str):
             print(random_password_generator(arg().len))
